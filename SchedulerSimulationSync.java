@@ -24,6 +24,7 @@ class Colors {
     public static final String BRIGHT_CYAN = "\u001B[96m";
     public static final String BRIGHT_YELLOW = "\u001B[93m";
     public static final String BRIGHT_GREEN = "\u001B[92m";
+    private static final ReentrantLock queueLock = new ReentrantLock();
 }
 
 // ⚠️ DO NOT REMOVE OR MODIFY THIS CLASS ⚠️
