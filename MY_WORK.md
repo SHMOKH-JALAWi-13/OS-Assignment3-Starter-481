@@ -39,3 +39,5 @@
 
 4. **Why is it necessary to release multiple semaphore permits when the last process completes?**
    When the simulation finishes, multiple CPU worker threads might still be blocked waiting on the semaphore (`acquire()`). Releasing permits equal to the total number of CPUs ensures all sleeping threads wake up, check the completion condition, and terminate cleanly.
+## 4. Video Link
+https://drive.google.com/file/d/1zQlGBfPolhVUePQmIZJL9WnPKuKHza4A/view?usp=drivesdk
